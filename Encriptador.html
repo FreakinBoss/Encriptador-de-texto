@@ -10,8 +10,12 @@
 
     <body>
         <div class="container">
+            <div class="logo">
+                <img src="img/Logo.png" id="a">
+            </div>
+
             <div class="encriptar">
-                <textarea name="text" class="texto" id="text" cols="30" rows="10" placeholder="Ingresa el texto aquí"></textarea>
+                <textarea name="text" class="texto" id="texto" cols="30" rows="10" placeholder="Ingresa el texto aquí"></textarea>
                 <div class="terminos">
                     <p>Solo letras minúsculas y sin acentos</p>
                 </div>
@@ -22,12 +26,12 @@
             </div>
                     
             <div class="encriptado">
-                <img src="" alt="" id="munheco">
+                <img src="img/Muñeco.png" id="munheco">
                 <div class="mensaje-encriptado" id="mensaje-encriptado">
                     <h2 id="titulo-mensaje">Ningún mensaje encontrado</h2>
                     <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea>
-                </div>    
+                    <button class="btn-copiar" type="button">Copiar</button>
+                </div>
             </div>
         </div>    
     </body>
